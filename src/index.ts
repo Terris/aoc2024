@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import { solveDay3 } from "./day3";
+import { solveDay4 } from "./day4";
 
 const readInput = (day: number): string => {
   const inputPath = join(__dirname, "..", "inputs", `day${day}.txt`);
@@ -13,5 +14,8 @@ const readInput = (day: number): string => {
 // const input = readInput(2);
 // console.log(`Day 2 solution:`, solveDay2(input));
 
-const input = readInput(3);
-console.log(`Day 3 solution:`, solveDay3(input));
+// const input = readInput(3);
+// console.log(`Day 3 solution:`, solveDay3(input));
+
+const input = readInput(4);
+console.log(`Day 4 solution:`, solveDay4(input));
