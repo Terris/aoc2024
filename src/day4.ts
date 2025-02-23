@@ -88,7 +88,6 @@ export function solveDay4Part2(input: string): number {
 
   // COUNT WORDS
   const count = countXMas(formattedInput);
-  console.log(count);
   return count;
 }
 
